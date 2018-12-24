@@ -38,7 +38,7 @@ namespace QModInstaller
             {
                 Console.WriteLine("QMOD ERR: QMod directory was not found");
                 Directory.CreateDirectory(qModBaseDir);
-                Console.WriteLine("QMOD INFO: Creaated QMod directory at {0}", qModBaseDir);
+                Console.WriteLine("QMOD INFO: Created QMod directory at {0}", qModBaseDir);
                 return;
             }
 
